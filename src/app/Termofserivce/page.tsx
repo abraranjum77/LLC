@@ -12,12 +12,12 @@ export default function Terms() {
    <Header />
 
    <div className="container">
-     <h3 className="mt-[50px] text-[26px] text-[#f9b400] leading-[32px] font-bold">Terms Of Service</h3>
-     <h1 className="my-[50px] text-[50px] text-[#2a4661] leading-[60px] font-bold">At Your Service.</h1>
+     <h3 className="md:mt-[50px] mt-[30px] text-[26px] text-[#f9b400] leading-[32px] font-bold">Terms Of Service</h3>
+     <h1 className="md:my-[50px] my-[30px] md:text-[50px] text-[30px] text-[#2a4661] md:leading-[60px] leading-[40px] font-bold">At Your Service.</h1>
 
    </div>
    <div className="border-t-[1px] border-[#222f3b]"></div>
-   <div className="container mt-[50px]">
+   <div className="container md:mt-[50px] mt-[30px] cookies">
 <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]">
 ANDREAS MENELAOU LLC Website Terms and Conditions</p>
    <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]"> 1. Acceptance of Terms <br/>
@@ -68,7 +68,7 @@ a. The information provided on the Website is intended for general informational
    a. If you have any questions about these Terms and Conditions, please contact us at info@menelaou-law.com
    </p>
    </div>
-   <div className="border-t-[1px] border-[#222f3b] mt-[50px]"></div>
+   <div className="border-t-[1px] border-[#222f3b] md:mt-[50px] mt-[30px]"></div>
    <ContactInfo />
    <Footer />
 </>
