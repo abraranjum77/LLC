@@ -17,7 +17,7 @@ export default function Terms() {
 
    </div>
    <div className="border-t-[1px] border-[#222f3b]"></div>
-   <div className="container md:mt-[50px] mt-[30px] cookies">
+   <div className="container md:mt-[50px] mt-[30px] cookies ">
 <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]">
 ANDREAS MENELAOU LLC Website Terms and Conditions</p>
    <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]"> 1. Acceptance of Terms <br/>
