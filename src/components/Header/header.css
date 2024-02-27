@@ -1,0 +1,45 @@
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+	outline: none;
+    box-shadow: none;
+}
+.navbar-toggler  .menu-toggle_bar__GUd1o {
+    width: 14px;
+    height: 1px;
+    background: #2a4661;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(.77,0,.175,1);
+}
+.herosection .navbar-toggler  .menu-toggle_bar__GUd1o {
+    background: #fff;
+
+} 
+.desktop-logo ,.mobile-logo{
+color: #2a4661;
+
+}
+.herosection .desktop-logo, .herosection  .mobile-logo {
+    color:#fff;
+}
+.navbar-toggler.collapsed .menu-toggle_bar__GUd1o[data-position=top] {
+    transform: translateY(-3.5px);
+}
+.navbar-toggler.collapsed .menu-toggle_bar__GUd1o[data-position=bottom] {
+    transform: translateY(3.5px);
+}
+.navbar-toggler .menu-toggle_bar__GUd1o[data-position=top] {
+    transform: translateY(0) rotate(45deg) scaleX(1.1);
+    height: 1px;
+}
+.navbar-toggler .menu-toggle_bar__GUd1o[data-position=bottom] {
+    transform: translateY(0) rotate(-45deg) scaleX(1.1);
+    height: 1px;
+}
+.navbar-collapse.show{
+
+background: #f1f4f7;
+
+}

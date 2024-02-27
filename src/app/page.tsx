@@ -1,113 +1,258 @@
+import React from 'react';
 import Image from "next/image";
-
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Talktous from '@/components/Tak_to_Us';
+import FirmSection from '@/components/Firm';
+import PublicationSection from '@/components/Publication';
+import Areassection from '@/components/Areas';
+import HomeCookies from '@/components/HomeCookies';
+import Markimage from '/public/assets/images/img-am-mark.png';
+import Gavel from '/public/assets/images/img-gavel.png';
+import Pen from '/public/assets/images/img-pen.png';
+import Globe from '/public/assets/images/img-globe.png';
+import Cake from '/public/assets/images/img-cake.png';
+import Stamp from '/public/assets/images/img-stamp.png';
+import LargeLogo from '/public/assets/images/name-logo-lrg.png';
+import About from "./About/page";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+    <>
+      
+    <div className="herosection ">
+    <Header />
+ 
+    <Image
+          className="section-1 hero-top "
+                    src={Markimage}
+          alt=""
+          width={1920}
+          height={1390}
+      quality={80}
+       
         />
-      </div>
+      
+  
+        <div className='gavel relative md:mt-[270px]'>
+        <div className='grid gap-x-[120px]  grid-cols-2 md:border-t-[0px] border-t-[1px] border-[#fff]'> 
+    <div className=''>
+    
+    </div>
+    <div className='md:border-t-[1px] border-[#fff] col z-10'>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+    </div>
+    </div>
+        <div className="container">
+        <div className='grid gap-x-[120px] grid gap-x-[120px] grid-cols-1 md:grid-cols-2 mb-[30px] md:mb-[62px]'> 
+<div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+</div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+<div className="md:pt-[50px] pt-[30px]">
+<Image src={LargeLogo} width={480} className="hero-logo" height={30} alt="" />
+<h5 className='text-[20px] leading-[24px] md:text-[30px] text-[#fff] md:leading-[32px] font-semibold mt-[20px]' >Advocates | Legal Consultants</h5>
+<p className="text-[20px] leading-[26px] text-[26px] text-[#fff] leading-[32px] font-normal">Your story, our expertise, crafting legal <br/>success together.</p>
+</div>
+        </div>
+        <div className='grid gap-x-[120px] grid gap-x-[120px] grid-cols-1 md:grid-cols-2 relative z-10'> 
+<div>
+<h1 className='text-[50px] leading-[60px]   md:text-[100px] text-[#fff] md:leading-[110px] font-bold mb-[30px] md:mb-[50px]'>A unique touch to law.</h1>
+</div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+<div>
+
+    <Image className='cover-ob-1'
+      alt=""
+      src={Pen}
+      placeholder="blur"
+      quality={80}
+      
+    />
+        </div>
+          </div>
+          </div>
+          
+          <Image className='cover-ob-3'
+      alt=""
+      src={Gavel}
+      placeholder="blur"
+      quality={80}
+      
+    />
+        </div>
+
+        
+      <div className='pen border-t-[1px] border-[#fff] md:pt-[50px] pt-[30px] z-10 relative'>
+      <Image className='md:hidden'
+      alt=""
+      src={Gavel}
+      placeholder="blur"
+      quality={80}
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: 'contain',
+      }}
+    />
+      <Image className='md:hidden'
+      alt=""
+      src={Pen}
+      placeholder="blur"
+      quality={80}
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: 'contain',
+      }}
+    />
+        <div className="container relative z-10">
+        <div className='grid gap-x-[120px] grid-cols-1 md:grid-cols-2'> 
+        <div>
+       <h2 className='text-[30px] leading-[40px] md:text-[50px] text-[#fff] md:leading-[60px] font-bold'> Firm </h2>
+        </div>
+        <div>
+<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] mb-[30px] '>
+Our practical, specialized & precise approach to our clients needs, guarantees bespoke legal advice built on the circumstances of each client.
+</p> <p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px] mt-[20px]'>
+ANDREAS MENELAOU LLC was founded on the principles of integrity, expertise, and unwavering dedication to our clients. Established in 2016, we have proudly served an international portfolio of clients in Cyprus and beyond, providing exceptional legal services tailored to meet the diverse needs of our clients.
+</p>
+
+        </div>
+        </div>
+
+        </div>
+        
+        </div>  
+         
+    <div className='cake relative '>
+    <Image className='cover-ob-2'
+      alt=""
+      src={Globe}
+      placeholder="blur"
+      quality={80}
+      
+    />
+    <div className='grid gap-x-[120px] grid-cols-2'> 
+    <div className='md:border-t-[1px] border-[#fff] col relative z-10'>
+
+    </div>
+    <div className='md:border-t-[1px] border-[#fff] col z-10'>
+
+    </div>
+    </div>
+    <div className="container relative z-10" >
+      <div className="grid gap-x-[120px] grid-cols-1 md:grid-cols-2">
+<div className='custom-pad  md:border-t-[0px] border-t-[1px] border-[#fff] '>
+<div className="relative z-10">
+        
+<h1 className='text-[110px] leading-[120px] md:text-[250px] text-[#fff] md:leading-[250px] font-bold md:mt-[50px] mt-[30px]'>
+  109
+</h1>  
+<h2 className='text-[50px] leading-[60px] md:text-[110px] text-[#fff] md:leading-[120px] font-bold'>
+Years
+</h2>
+<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px]  md:mt-[20px] mt-[10px]'>Of combined legal experience in the most complex areas of law.</p>
+
+    </div>
+    <Image className='md:hidden'
+      alt=""
+      src={Globe}
+      placeholder="blur"
+      quality={80}
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: 'contain',
+      }}
+    />
+</div>
+<div className="relative md:border-t-[0px] border-t-[1px] border-[#fff] custom-pad">
+<div className="relative z-10">
+<h1 className='text-[110px] leading-[120px] md:text-[250px] text-[#fff] md:leading-[250px] font-bold md:mt-[50px] mt-[30px]'>
+  8
+</h1>  
+<h2 className='text-[50px] leading-[60px] md:text-[110px] text-[#fff] md:leading-[120px] font-bold'>
+Years
+</h2>
+<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px] md:mt-[20px] mt-[10px]'>Managing and consulting international clients with hundreds of successful projects worldwide.</p>
+
+    </div>
+    
+    <Image className='md:hidden'
+      alt=""
+      src={Cake}
+      placeholder="blur"
+      quality={80}
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: 'contain',
+      }}
+    />
+</div>
+
+</div>
+    </div>
+    <div className='grid gap-x-[120px] grid-cols-2 md:border-t-[0px] border-t-[1px] border-[#fff]'> 
+    <div className=' col'>
+
+    </div>
+    <div className='md:border-t-[1px] border-[#fff] col z-10'>
+
+    </div>
+    </div>
+    <Image className='cover-ob-1'
+      alt=""
+      src={Cake}
+      placeholder="blur"
+      quality={80}
+      
+    />
+    </div>
+
+   <div className="stamp-section relative">
+    <div className="container relative z-10" >
+      <div className="row">
+<div className='col-md-6 col-12'>
+
+</div>
+<div className="col-md-6 col-12">
+<div className="relative md:ms-[40px]">
+<h1 className='text-[110px] leading-[120px] md:text-[250px] text-[#fff] md:leading-[250px] font-bold md:mt-[50px] mt-[30px]'>
+  4
+</h1>  
+<h2 className='text-[50px] leading-[60px] md:text-[110px] text-[#fff] md:leading-[120px] font-bold'>
+Areas Of Expertise
+</h2>
+<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px] md:mt-[20px] mt-[10px]'>Corporate & Commercial • Immigration & Relocation • Litigation & Dispute Resolution • Real Estate.</p>
+
+    </div>
+</div>
+</div>
+    </div>
+
+    <Image className='cover-ob'
+      alt=""
+      src={Stamp}
+      placeholder="blur"
+      quality={80}
+      fill
+      sizes="100vw"
+      style={{
+        objectFit: 'contain', objectPosition: 'bottom',
+      }}
+    />
+ 
+
+   </div>
+
+    </div>
+    <Areassection/>
+    <PublicationSection/>
+    <FirmSection/>
+    <Talktous />
+    <HomeCookies />
+    <Footer />
+    </>
   );
 }
