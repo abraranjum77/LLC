@@ -17,7 +17,7 @@ export default function CookiesPrivacy() {
 
    </div>
    <div className="border-t-[1px] border-[#222f3b]"></div>
-   <div className="container md:mt-[50px] mt-[30px]">
+   <div className="container md:mt-[50px] mt-[30px] cookies">
 <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]">ANDREAS MENELAOU LLC Privacy & Cookie Policy</p>
    <p className="text-[26px] text-[#2a4661] leading-[32px] font-normal text-justify mb-[20px]"> 1. Introduction <br/>
 Welcome to the ANDREAS MENELAOU LLC website (the "Website"). This Privacy & Cookie Policy outlines how we collect, use, and protect your personal information in compliance with the General Data Protection Regulation (GDPR).</p>

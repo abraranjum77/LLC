@@ -136,6 +136,11 @@ padding:200px 100px;
 justify-content: space-between;
 
 }
+.cookies p {
+font-size:20px !important;
+line-height: 26px !important;
+
+}
 .success-message {
 
   color: #2a4661 !important;
