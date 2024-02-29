@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import ContactInfo from '../../components/ContactInfo/index';
-import Header from "../../components/Header/index";
-import Footer from '../../components/Footer/index';
+import ContactInfo from '@/components/ContactInfo';
+import Header from "@/components/Header";
+import Footer from '@/components/Footer';
+import Quickcontact from '@/components/Quickcontact';
 
 export default function CookiesPrivacy() {
 
