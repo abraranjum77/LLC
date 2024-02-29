@@ -7,8 +7,8 @@ import Approachimage from '../../../public/assets/images/img-approach.png';
 import Valuesimage from '../../../public/assets/images/img-values.png';
 import Conclusionimage from '../../../public/assets/images/img-conclusion.png';
 import Header from "../../components/Header/index";
-import Footer from '../../components/Footer';
-import Quickcontact from '../../components/Quickcontact';
+import Footer from '../../components/Footer/index';
+import Quickcontact from '../../components/Quickcontact/index';
 
 export default function Firm() {
 

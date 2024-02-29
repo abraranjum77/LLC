@@ -7,8 +7,8 @@ import Immigration from '../../../public/assets/images/img-immigration.png';
 import Corporateimage from '../../../public/assets/images/img-corporate.png';
 import Realstateimage from '../../../public/assets/images/img-realestate.png';
 import Header from "../../components/Header/index";
-import Footer from '../../components/Footer';
-import Quickcontact from '../../components/Quickcontact';
+import Footer from '../../components/Footer/index';
+import Quickcontact from '../../components/Quickcontact/index';
 
 export default function Expertise() {
 

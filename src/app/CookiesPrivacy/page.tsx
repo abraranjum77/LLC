@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import ContactInfo from '@/components/ContactInfo';
+import ContactInfo from '../../components/ContactInfo/index';
 import Header from "../../components/Header/index";
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/index';
 
 export default function CookiesPrivacy() {
 

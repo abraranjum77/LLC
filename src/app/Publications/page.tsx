@@ -10,8 +10,8 @@ import blogimage3 from '../../../public/assets/images/img-blog-03.png';
 import blogimage4 from '../../../public/assets/images/img-blog-04.png';
 import Conclusionimage from '../../../public/assets/images/img-conclusion.png';
 import Header from "../../components/Header/index";
-import Footer from '../../components/Footer';
-import Quickcontact from '../../components/Quickcontact';
+import Footer from '../../components/Footer/index';
+import Quickcontact from '../../components/Quickcontact/index';
 
 export default function Publications() {
 

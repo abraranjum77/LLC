@@ -4,8 +4,8 @@ import Profileimage from '../../../public/assets/images/profile-image-1.png';
 import ReadMoreArrow from '../../../public/assets/images/chevron-review.png';
 import blogimage1 from '../../../public/assets/images/img-blog-01.png';
 import Header from "../../components/Header/index";
-import Footer from '../../components/Footer';
-import Quickcontact from '../../components/Quickcontact';
+import Footer from '../../components/Footer/index';
+import Quickcontact from '../../components/Quickcontact/index';
 export default function Publication() {
 
     return (
