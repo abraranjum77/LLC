@@ -6,9 +6,9 @@ import Missionimage from '../../../public/assets/images/img-mission.png';
 import Approachimage from '../../../public/assets/images/img-approach.png';
 import Valuesimage from '../../../public/assets/images/img-values.png';
 import Conclusionimage from '../../../public/assets/images/img-conclusion.png';
-import Header from "@/components/Header/index";
-import Footer from '@/components/Footer';
-import Quickcontact from '@/components/Quickcontact';
+import Header from "../../components/Header/index";
+import Footer from '../../components/Footer';
+import Quickcontact from '../../components/Quickcontact';
 
 export default function Firm() {
 

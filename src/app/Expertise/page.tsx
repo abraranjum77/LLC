@@ -6,9 +6,9 @@ import Litigation from '../../../public/assets/images/img-litigation.png';
 import Immigration from '../../../public/assets/images/img-immigration.png';
 import Corporateimage from '../../../public/assets/images/img-corporate.png';
 import Realstateimage from '../../../public/assets/images/img-realestate.png';
-import Header from "@/components/Header/index";
-import Footer from '@/components/Footer';
-import Quickcontact from '@/components/Quickcontact';
+import Header from "../../components/Header/index";
+import Footer from '../../components/Footer';
+import Quickcontact from '../../components/Quickcontact';
 
 export default function Expertise() {
 
