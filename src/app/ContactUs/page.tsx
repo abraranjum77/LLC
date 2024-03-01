@@ -38,7 +38,7 @@ export default function ContactUs() {
 
     </div>
     <div className="col-md-6">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.0218438075794!2d33.084200374195916!3d34.70462898300463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e0cb5107a9cafb%3A0xb16e5f29c1102d35!2sChristaki%20Kranou%2050%2C%20Germasogeia%2C%20Cyprus!5e0!3m2!1sen!2s!4v1708284757256!5m2!1sen!2s" width="100%" height="580"  allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
     </div>
 
 </div>
