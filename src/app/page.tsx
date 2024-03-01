@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Talktous from '@/components/Tak_to_Us';
+import Talktous from '@/components/Talktous';
 import FirmSection from '@/components/Firm';
 import PublicationSection from '@/components/Publication';
 import Areassection from '@/components/Areas';
