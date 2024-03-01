@@ -15,7 +15,7 @@ export default function Firm() {
     return (
    <>
    <Header />
-  <div className="container relative" >
+  <div className="container relative " >
     <h3 className="md:my-[50px] my-[30px]  text-[26px] text-[#f9b400] leading-[32px] font-bold">The Firm</h3>
   <Image
       src={Firmheader}

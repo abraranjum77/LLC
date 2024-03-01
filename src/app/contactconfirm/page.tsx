@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 import Contactusimage from '../../../public/assets/images/contactus.png';
 import ContactInfo from '@/components/ContactInfo';
 import Header from "@/components/Header";
-import Footer from '@/components/Footer/index';
+import Footer from '@/components/Footer';
 import Quickcontact from '@/components/Quickcontact';
 
 export default function ContactUs() {
