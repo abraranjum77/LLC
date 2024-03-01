@@ -43,6 +43,11 @@ body {
     background: #fff;
 
 } 
+header .collapse{
+
+  visibility: initial;
+
+}
 .desktop-logo ,.mobile-logo{
 color: #2a4661;
 
