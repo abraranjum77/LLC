@@ -57,8 +57,8 @@ function CollapsibleExample() {
               <div className="col-md-8">
               <Nav className="custom-nvi" >
        
-          <Nav.Link className={`link ${pathname === '/firm' ? 'active' : ''}`}
-            href="/firm" >Firm</Nav.Link>
+          <Nav.Link className={`link ${pathname === '/Firm' ? 'active' : ''}`}
+            href="/Firm" >Firm</Nav.Link>
             <Nav.Link className={`link ${pathname === '/Expertise' ? 'active' : ''}`}
             href="/Expertise" >Areas of Expertise</Nav.Link>
             <Nav.Link  className={`link ${pathname === '/Publications' ? 'active' : ''}`}
