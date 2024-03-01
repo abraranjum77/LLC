@@ -38,7 +38,7 @@ export default function ContactUs() {
 
     </div>
     <div className="col-md-6">
-   
+    
     </div>
 
 </div>
