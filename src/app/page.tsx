@@ -20,8 +20,7 @@ export default function Home() {
     <>
       
     <div className="herosection ">
-
- 
+<Header />
     <Image
           className="section-1 hero-top "
                     src={Markimage}

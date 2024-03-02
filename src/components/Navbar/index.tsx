@@ -43,9 +43,12 @@ export default function NavbarB() {
            
            <div className="flex items-center gap-[20px]">
     <div className="md:flex hidden"><a href="#" className=" underline write">Write</a></div>
-    <div className="md:flex hidden"><a    role="button" aria-expanded="false" aria-controls="slideform" className="search h-[80px] w-[80px]  flex rounded-full items-center  justify-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+    <div className="md:flex hidden"> <form className="search-navbar search h-[80px] w-[80px]  flex rounded-full items-center  justify-center" action="">
+  <input type="search" placeholder="Search here ..." />
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-</svg> </a>
+</svg> 
+</form>
 </div>
         <Navbar.Toggle  aria-controls="responsive-navbar-nav" className="md:h-[80px] md:w-[80px] h-[50px] w-[50px] tri flex rounded-full items-center justify-center" >
         <div className="menu-toggle_bar__GUd1o" data-position="top"></div><div className="menu-toggle_bar__GUd1o" data-position="bottom"></div>
