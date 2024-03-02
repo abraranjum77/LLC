@@ -62,30 +62,30 @@ export default function NavbarB() {
               <div className="col-md-8">
               <Nav className="custom-nvi" >
        
-          <Nav.Link className={`link ${pathname === '/Firm' ? 'active' : ''}`}
-            href="/Firm" >Firm</Nav.Link>
-            <Nav.Link className={`link ${pathname === '/Expertise' ? 'active' : ''}`}
-            href="/Expertise" >Areas of Expertise</Nav.Link>
-            <Nav.Link  className={`link ${pathname === '/Publications' ? 'active' : ''}`}
-            href="/Publications">Publications</Nav.Link>
-            <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Contact Us</Nav.Link>
-             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Corporate & Commercial</Nav.Link>
-             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Immigration & Relocation</Nav.Link>
-             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
+          <Link className={`link ${pathname === '/Firm' ? 'active' : ''}`}
+            href="/Firm" >Firm</Link>
+            <Link className={`link ${pathname === '/Expertise' ? 'active' : ''}`}
+            href="/Expertise" >Areas of Expertise</Link>
+            <Link  className={`link ${pathname === '/Publications' ? 'active' : ''}`}
+            href="/Publications">Publications</Link>
+            <Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+            href="/ContactUs">Contact Us</Link>
+             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
+            href="/ContactUs">Corporate & Commercial</Link>
+             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
+            href="/ContactUs">Immigration & Relocation</Link>
+             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Litigation & Dispute Resolution 
-            </Nav.Link>
-            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
+            </Link>
+            <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Real Estate 
-            </Nav.Link>
-            <Nav.Link className={`link md:hidden ${pathname === '/CookiesPrivacy' ? 'active' : ''}`}
+            </Link>
+            <Link className={`link md:hidden ${pathname === '/CookiesPrivacy' ? 'active' : ''}`}
             href="/CookiesPrivacy">Privacy & Cookie Policy
-            </Nav.Link>
-            <Nav.Link className={`link md:hidden ${pathname === '/Termofserivce' ? 'active' : ''}`}
+            </Link>
+            <Link className={`link md:hidden ${pathname === '/Termofserivce' ? 'active' : ''}`}
             href="/Termofserivce">Terms Of Service
-            </Nav.Link>
+            </Link>
           </Nav>
 
               </div>
