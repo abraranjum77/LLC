@@ -80,11 +80,11 @@ export default function NavbarB() {
             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Real Estate 
             </Nav.Link>
-            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Privacy & Cookie Policy
+            <Nav.Link className={`link md:hidden ${pathname === '/CookiesPrivacy' ? 'active' : ''}`}
+            href="/CookiesPrivacy">Privacy & Cookie Policy
             </Nav.Link>
-            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Terms Of Service
+            <Nav.Link className={`link md:hidden ${pathname === '/Termofserivce' ? 'active' : ''}`}
+            href="/Termofserivce">Terms Of Service
             </Nav.Link>
           </Nav>
 
