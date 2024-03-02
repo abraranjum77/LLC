@@ -232,6 +232,10 @@ padding:200px 100px;
 justify-content: space-between;
 
 }
+.sticky-nav{
+position: relative;
+
+}
 .cookies p {
 font-size:20px !important;
 line-height: 26px !important;

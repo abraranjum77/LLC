@@ -70,20 +70,20 @@ export default function NavbarB() {
             href="/Publications">Publications</Nav.Link>
             <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Contact Us</Nav.Link>
-             <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Corporate & Commercial</Nav.Link>
-             <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Immigration & Relocation</Nav.Link>
-             <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+             <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Litigation & Dispute Resolution 
             </Nav.Link>
-            <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Real Estate 
             </Nav.Link>
-            <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Privacy & Cookie Policy
             </Nav.Link>
-            <Nav.Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
+            <Nav.Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Terms Of Service
             </Nav.Link>
           </Nav>
