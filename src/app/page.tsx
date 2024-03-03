@@ -15,6 +15,7 @@ import Cake from '/public/assets/images/img-cake.png';
 import Stamp from '/public/assets/images/img-stamp.png';
 import LargeLogo from '/public/assets/images/name-logo-lrg.png';
 import About from "./About/page";
+import Link from 'next/link';
 export default function Home() {
   return (
     <>
@@ -223,7 +224,7 @@ Years
 <h2 className='text-[50px] leading-[60px] md:text-[110px] text-[#fff] md:leading-[120px] font-bold'>
 Areas Of Expertise
 </h2>
-<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px] md:mt-[20px] mt-[10px]'>Corporate & Commercial • Immigration & Relocation • Litigation & Dispute Resolution • Real Estate.</p>
+<p className='text-[20px] leading-[26px] md:text-[26px] text-[#fff] md:leading-[32px] md:mb-[50px] mb-[30px] md:mt-[20px] mt-[10px]'><Link href="/Expertise#Corporate-and-Commercial" className=''>Corporate & Commercial </Link> • <Link href="/Expertise#Immigration-and-Relocation">Immigration & Relocation</Link> • <Link href="/Expertise#Litigation-and-Dispute-Resolution">Litigation & Dispute Resolution</Link> • <Link href="/Expertise#Real-Estate">Real Estate</Link>.</p>
 
     </div>
 </div>

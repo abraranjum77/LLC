@@ -36,7 +36,7 @@ export default function Expertise() {
   
  <h3 className="md:text-[30px] text-[26px] text-[#2a4661] md:leading-[40px] leading-[32px] font-bold text-justify">Corporate & Commercial • Immigration & Relocation • Litigation & Dispute Resolution • Real Estate.</h3>
   </div>
-  <div className="mission-section">
+  <div className="Corporate-and-Commercial" id="Corporate-and-Commercial">
  <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[20px]">
 <div className="border-t-[1px] border-[#222f3b] md:block hidden"></div>
 <div className="border-t-[1px] border-[#222f3b] md:block hidden"></div>
@@ -74,7 +74,7 @@ Beyond traditional legal advice, we serve as strategic business counsellors, col
 <div className="border-t-[1px] border-[#222f3b] md:block hidden"></div>
 </div>
  </div>
- <div className="aproach-section">
+ <div className="Immigration-and-Relocation" id="Immigration-and-Relocation">
 
 <div className="container md:my-[50px] my-[30px]">
     <div className="row">
@@ -112,7 +112,7 @@ We collaborate with you to develop a strategic relocation plan aligned with your
 <div className="border-t-[1px] border-[#222f3b] md:block hidden"></div>
 </div>
  </div>
- <div className="value-section">
+ <div className="Litigation-and-Dispute-Resolution" id="Litigation-and-Dispute-Resolution">
  
 <div className="container md:my-[50px] my-[30px]">
     <div className="row"><div className="col-md-6 col-12 order-md-2"><Image
@@ -144,7 +144,7 @@ From pre-trial negotiations to courtroom advocacy, we guide you through each ste
 <div className="border-t-[1px] border-[#222f3b] md:block hidden"></div>
 </div>
  </div>
- <div className="aproach-section">
+ <div className="Real-Estate" id="Real-Estate">
 
 <div className="container md:my-[50px] my-[30px]">
     <div className="row">

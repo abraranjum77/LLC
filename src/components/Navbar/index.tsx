@@ -8,7 +8,7 @@ import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
 import { NavDropdown } from 'react-bootstrap';
 import Logo from '../../../public/assets/images/logo.png';
 import Menuimage from '../../../public/assets/images/img-menu.png';
-import { usePathname } from 'next/navigation'
+import { usePathname } from 'next/navigation';
 import Link from 'next/link'
 export default function NavbarB() {
   const [stickyClass, setStickyClass] = useState('');
@@ -70,15 +70,15 @@ export default function NavbarB() {
             href="/Publications">Publications</Link>
             <Link className={`link ${pathname === '/ContactUs' ? 'active' : ''}`}
             href="/ContactUs">Contact Us</Link>
-             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Corporate & Commercial</Link>
-             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Immigration & Relocation</Link>
-             <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Litigation & Dispute Resolution 
+             <Link className={`link md:hidden ${pathname === '/Expertise' ? 'active' : ''}`}
+            href="/Expertise#Corporate-and-Commercial">Corporate & Commercial</Link>
+             <Link className={`link md:hidden ${pathname === '/Expertise' ? 'active' : ''}`}
+            href="/Expertise#Immigration-and-Relocation">Immigration & Relocation</Link>
+             <Link className={`link md:hidden ${pathname === '/Expertise' ? 'active' : ''}`}
+            href="/Expertise#Litigation-and-Dispute-Resolution">Litigation & Dispute Resolution 
             </Link>
-            <Link className={`link md:hidden ${pathname === '/ContactUs' ? 'active' : ''}`}
-            href="/ContactUs">Real Estate 
+            <Link className={`link md:hidden ${pathname === '/Expertise' ? 'active' : ''}`}
+            href="/Expertise#Real-Estate">Real Estate 
             </Link>
             <Link className={`link md:hidden ${pathname === '/CookiesPrivacy' ? 'active' : ''}`}
             href="/CookiesPrivacy">Privacy & Cookie Policy
@@ -103,19 +103,19 @@ export default function NavbarB() {
     />
     <div className="mt-[40px] md:hidden">
 <a href="#"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <path d="M8 0a8 8 0 0 0-8 8v24a8 8 0 0 0 8 8h24a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8H8zM4 8a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8zm10 10a2 2 0 1 0-4 0v12a2 2 0 1 0 4 0V18zm1-7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm5 5c.68 0 1.28.34 1.64.856A7.021 7.021 0 0 1 25 16c4.32 0 7 3.852 7 7.142V30a2 2 0 1 1-4 0v-6.86c0-1.536-1.32-3.142-3-3.142-1.048 0-2.206.57-3 1.926V30a2 2 0 1 1-4 0V18a2 2 0 0 1 2-2z" fill="#F1F4F7" fill-rule="evenodd"/>
+    <path d="M8 0a8 8 0 0 0-8 8v24a8 8 0 0 0 8 8h24a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8H8zM4 8a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8zm10 10a2 2 0 1 0-4 0v12a2 2 0 1 0 4 0V18zm1-7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm5 5c.68 0 1.28.34 1.64.856A7.021 7.021 0 0 1 25 16c4.32 0 7 3.852 7 7.142V30a2 2 0 1 1-4 0v-6.86c0-1.536-1.32-3.142-3-3.142-1.048 0-2.206.57-3 1.926V30a2 2 0 1 1-4 0V18a2 2 0 0 1 2-2z" fill="#F1F4F7" fillRule="evenodd"/>
 </svg>
 </a>
     </div>
     <div className="mt-[40px] md:hidden">
 <a href="#"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 8a8 8 0 0 1 8-8h24a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8zm8-4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h12V22h-2a2 2 0 1 1 0-4h2v-3a7 7 0 0 1 7-7h1.2a2 2 0 1 1 0 4H27a3 3 0 0 0-3 3v3h4.2a2 2 0 1 1 0 4H24v14h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8z" fill="#F1F4F7" fill-rule="evenodd"/>
+    <path d="M0 8a8 8 0 0 1 8-8h24a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8zm8-4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h12V22h-2a2 2 0 1 1 0-4h2v-3a7 7 0 0 1 7-7h1.2a2 2 0 1 1 0 4H27a3 3 0 0 0-3 3v3h4.2a2 2 0 1 1 0 4H24v14h8a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8z" fill="#F1F4F7" fillRule="evenodd"/>
 </svg>
 </a>
     </div>
     <div className="mt-[40px] md:hidden">
 <a href="#"><svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 8a8 8 0 0 1 8-8h24a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8zm8-4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h24a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8zm12 10a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm-10 6c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zm21-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="#F1F4F7" fill-rule="evenodd"/>
+    <path d="M0 8a8 8 0 0 1 8-8h24a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8zm8-4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h24a4 4 0 0 0 4-4V8a4 4 0 0 0-4-4H8zm12 10a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm-10 6c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10zm21-8a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="#F1F4F7" fillRule="evenodd"/>
 </svg>
 </a>
     </div>
